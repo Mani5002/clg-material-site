@@ -14,6 +14,7 @@ nav {
     width: 100%;
     background-color: white;
     display: flex;
+    
 
 }
 
@@ -40,13 +41,14 @@ h4 {
 .tittle h2 {
     text-align: center;
     color: black;
-    padding-top: 40px;
+    margin-top: 50px;
+
 }
 
 /* body content */
 .content {
-    padding-top: 40px;
-    display: flex;
+   
+margin-top: 70px;
     justify-content: center;
 
 }
@@ -54,22 +56,26 @@ h4 {
 .row1,
 .row2,
 .row3 {
-    padding: 50px;
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .depart button {
     height: 80px;
     width: 200px;
     border: 1px solid black;
-    flex-basis: 50%;
+
     padding: 20px;
-    margin-bottom: 10px;
+
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
     background-color: white;
     color: black;
     font-size: 15px;
+   cursor: pointer;
 }
 
 .depart a {
